@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Lista de Alunos da Turma</h1>
+
+<table>
+    <caption>Desempenho Acadêmico dos Alunos</caption>
+    <thead>
+        <tr>
+            <th scope="col" colspan="2">Nome</th>
+            <th scope="col">Nota</th>
+            <th scope="col">Média Final</th>
+            <th scope="col">Classificação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">João Silva</td>
+            <td>João Silva</td>
+            <td>8.5</td>
+            <td>8.0</td>
+            <td>2º</td>
+        </tr>
+        <tr>
+            <td>Maria Souza</td>
+            <td>7.5</td>
+            <td>7.8</td>
+            <td>4º</td>
+        </tr>
+        <tr>
+            <td colspan="2">Carlos Mendes</td>
+            <td>9.0</td>
+            <td>8.9</td>
+            <td>1º</td>
+        </tr>
+        <tr>
+            <td colspan="2">Ana Clara</td>
+            <td>6.5</td>
+            <td>7.0</td>
+            <td>5º</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
